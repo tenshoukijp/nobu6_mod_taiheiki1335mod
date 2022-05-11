@@ -1,0 +1,10 @@
+LIBRARY "Taiheiki1335Mod"
+EXPORTS
+    OnInitialize = On_初期化 @ 1
+    OnViewingTopMenu = On_トップメニュー時 @ 2
+    OnSelectingScenarioDaimyoStart = On_シナリオ大名選択直前 @ 3
+    OnMainGameStart = On_メインゲーム開始 @ 4
+    OnSobaChange = On_相場変更直前 @ 5
+    OnFinalize = On_末期化 @ 6
+    OnWritingScenarioDetail = On_シナリオ説明表示直前 @ 7
+
